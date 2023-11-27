@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px 5px rgba(27, 27, 27, 0.295);
+}
+
+#timer {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#input-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#time-input {
+    width: 190px;
+    height: 40px;
+    font-size: 26px;
+}
+
+#start-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 175);
+    color: #fff;
+}
